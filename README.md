@@ -123,8 +123,6 @@ Ensures idempotent ingestion and prevents duplicates.
 
 ## 7. Indexing Strategy
 
-movies: - movieId (unique) - genres
-
 movies:  
 - movieId (unique)
 - genres
