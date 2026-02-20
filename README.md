@@ -10,6 +10,13 @@ This project implements an end-to-end ML data pipeline:
 
 CSV → MongoDB (NoSQL) → Aggregation-based Feature Engineering → ML Model
 
+This project demonstrates:
+
+- NoSQL reference schema design
+- Aggregation pipelines as feature engineering
+- Reproducible export for ML training
+
+
 The schema is intentionally designed to:
 
 -   Support scalable event ingestion
@@ -17,14 +24,6 @@ The schema is intentionally designed to:
 -   Avoid duplication
 -   Prevent data leakage
 -   Align with ML feature engineering workflows
-
-------------------------------------------------------------------------
-
-## 2. Why this project?
-Demonstrates:
-- NoSQL reference schema design
-- Aggregation pipelines as feature engineering
-- Reproducible export for ML training
 
 ------------------------------------------------------------------------
 
