@@ -179,8 +179,8 @@ ML Training (RandomForest baseline)
 
 ## 10. Explanation
 
-"I used a referenced data model separating static movie metadata from
+I used a referenced data model separating static movie metadata from
 dynamic rating events. Ratings are modeled as append-only logs with a
 synthetic unique key to ensure idempotent ingestion. Indexes were
-created based on aggregation patterns used for ML feature engineering."
+created based on aggregation patterns used for ML feature engineering.
 
