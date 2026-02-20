@@ -41,7 +41,7 @@ Place files at:
 
 ## 4. Setup
 
-### Create environment
+### Create environment and run the scrpits as following
 ```bash
 uv init mongodb-ml-pipeline
 uv add pymongo pandas scikit-learn pyarrow
