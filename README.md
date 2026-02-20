@@ -125,8 +125,16 @@ Ensures idempotent ingestion and prevents duplicates.
 
 movies: - movieId (unique) - genres
 
-ratings: - \_rid (unique) - (userId, timestamp) - (movieId, timestamp) -
-(userId, movieId)
+movies:  
+- movieId (unique)
+- genres
+
+ratings: 
+- \_rid (unique synthetic key for idempotent ingestion)
+- (userId, timestamp DESC)
+- (movieId, timestamp DESC)
+- (userId, movieId)
+
 
 ------------------------------------------------------------------------
 
