@@ -135,6 +135,14 @@ ratings:
 - (movieId, timestamp DESC)
 - (userId, movieId)
 
+tags:  
+- \_tid (unique synthetic key for idempotent ingestion)
+- (movieId, timestamp DESC)
+- tag
+
+links:  
+- No explicit indexes are created by the ingestion script.
+- Documents are upserted using movieId as the lookup key.
 
 ------------------------------------------------------------------------
 
