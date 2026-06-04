@@ -1,6 +1,6 @@
 # MongoDB Schema Design -- MovieLens ML Pipeline
 
-End-to-end ML-engineering style project:
+End-to-end ML-engineering project:
 **MovieLens CSV → MongoDB → Aggregation-based feature engineering → Export → ML baseline**
 
 
